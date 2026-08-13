@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Compra e Venda de Carros online</title>
+
+    <link rel="canonical" href="URL_DA_TUA_PAGINA">
+
+    <meta property="og:title" content="Compra e Venda de Carros">
+    <meta property="og:description" content="Encontre e anuncie carros de forma simples e rápida.">
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/8/8e/Toyota_Ractis_02.jpg">
+    <meta property="og:url" content="URL_DA_TUA_PAGINA">
+    <meta property="og:type" content="website">
+</head>
+<body>
+<main>
+<h1>Compra e venda de carros online</h1>
+<section>
+<p>Fornecemos varios tipos de carros escolhe e desfrute da tua preferencia</p>
+<ol>
+<li><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Toyota_Ractis_02.jpg" alt="Toyota Ractis"></li>
+<figcaption>Carro modelo<a href="https://carros.mz.cari.africa/carros/toyota-ractis">Ractis</a></figcaption>
+<h2>Vantagens do carro Ractis<h2>
+<p>Os carros sao optimos para o nosso dia a dia e incluem varias vantagens como:</p>
+<ul>
+<li>Baixo custo</li>
+<li>Poupanca de gasolina</li>
+<li>Resistentes e duradouros</li>
+</ul>
+<section id="galeria-ractis">
+
+    <h2>Galeria Toyota Ractis</h2>
+
+    <div class="galeria-ractis">
+
+        <img
+            src="https://img1.kakaku.k-img.com/images/productimage/fullscale/K0000286497.jpg"
+            alt="Toyota Ractis visto de frente">
+
+        <img
+            src="https://picture1.goo-net.com/031/0310365/J/0310365A30251215W00309.jpg"
+            alt="Toyota Ractis visto de lado">
+
+        <img
+            src="https://revimg02.kakaku.k-img.com/images/Review/000/035/35881_m.jpg"
+            alt="Interior do Toyota Ractis">
+
+    </div>
+
+</section>
+
+<style>
+#galeria-ractis {
+    text-align: center;
+    padding: 20px;
+}
+
+.galeria-ractis {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.galeria-ractis img {
+    width: 220px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.galeria-ractis img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+</style>
+<p>Veja com os seus proprios olhos as qualidades do Ractis</p>
+<div class="ractis-video">
+    <a href="https://www.youtube.com/watch?v=mv3HA-l0iLo" target="_blank">
+
+        <img
+            src="https://i.ytimg.com/vi/mv3HA-l0iLo/hqdefault.jpg"
+            alt="Toyota Ractis"
+        >
+
+        <div class="play-button">▶</div>
+
+        <div class="video-text">
+            Toyota Ractis — Teste Drive
+        </div>
+
+    </a>
+</div>
+
+<style>
+.ractis-video {
+    position: fixed;
+    right: 20px;
+    bottom: 220px;
+    width: 320px;
+    height: 180px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.35);
+    z-index: 9999;
+}
+
+.ractis-video img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.ractis-video a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(220,0,0,0.9);
+    color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.video-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    font-weight: bold;
+}
+</style>
+<div id="ractis">
+    <h2>Toyota Ractis</h2>
+    <p>Conforto, economia e praticidade.</p>
+</div>
+
+<style>
+#ractis {
+    width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    text-align: center;
+}
+</style>
+
+<div class="compra">
+    <h2>Comprar Toyota Ractis</h2>
+
+    <form>
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="endereco">Endereço:</label>
+        <textarea id="endereco" name="endereco" required></textarea>
+
+        <label for="pagamento">Método de pagamento:</label>
+        <select id="pagamento" name="pagamento" required>
+            <option value="">Escolha uma opção</option>
+            <option value="mpesa">M-Pesa</option>
+            <option value="emola">e-Mola</option>
+            <option value="cartao">Cartão bancário</option>
+            <option value="transferencia">Transferência bancária</option>
+        </select>
+
+        <button type="submit">Comprar agora</button>
+    </form>
+</div>
+
+<style>
+.compra {
+    width: 350px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+}
+
+.compra h2 {
+    text-align: center;
+}
+
+.compra label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.compra input,
+.compra textarea,
+.compra select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.compra textarea {
+    height: 70px;
+}
+
+.compra button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #008000;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+</style>
+</section>
+<section>
+<h2>Modelo mais perspicaz que temos</h2>
+<li><img 
+    src="https://s1.cdn.autoevolution.com/images/gallery/MERCEDES-BENZ-GLB-6595_58.jpg"
+    alt="Mercedes-Benz GLB"
+    width="400"></li>
+	<figcaption>Carro modelo<a href="https://www.mercedes-benz.pt/passengercars/models/suv/glb/overview.html" target="_blank">
+    Mercedes-Benz GLB
+</a></li>
+<h3>Sobre o carro</h3>
+<p>O carro e optimo pra varias coisa como:</p>
+<ul>
+<li>Sao extremamentes luxuosos</li>
+<li>Sao resistentes</li>
+<li>Possuem um bom preco no mercado comercial</li>
+</ul>
+<a href="https://www.mercedes-benz.pt/passengercars/models/suv/glb/overview.html" target="_blank">
+  saber mais sobre o  Mercedes-Benz GLB
+</a>
+<div class="mercedes-video">
+
+    <a href="https://www.youtube.com/watch?v=OjDNhujrhgo" target="_blank">
+
+        <img
+            src="https://i.ytimg.com/vi/OjDNhujrhgo/hqdefault.jpg"
+            alt="Mercedes-Benz GLB">
+
+        <div class="play-button">▶</div>
+
+        <div class="video-title">
+            Mercedes-Benz GLB — Test Drive
+        </div>
+
+    </a>
+
+</div>
+
+<style>
+.mercedes-video {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 320px;
+    height: 180px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.35);
+    z-index: 9998;
+}
+
+.mercedes-video img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mercedes-video a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.75);
+    color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.video-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    font-weight: bold;
+}
+</style>
+<div id="mercedes" class="carro">
+    <h2>Mercedes-Benz GLB</h2>
+
+    <p>
+        O Mercedes-Benz GLB combina elegância, conforto e tecnologia,
+        sendo uma excelente opção para quem procura um SUV moderno.
+    </p>
+
+    <h3>Principais qualidades</h3>
+
+    <ul>
+        <li>✨ Design moderno e elegante</li>
+        <li>🛋️ Interior confortável e espaçoso</li>
+        <li>🚗 Boa estabilidade e condução confortável</li>
+        <li>⚙️ Tecnologia e recursos modernos</li>
+        <li>🛡️ Sistemas de segurança e assistência ao condutor</li>
+        <li>👨‍👩‍👧‍👦 Boa capacidade para passageiros e bagagem</li>
+        <li>⭐ Acabamento de qualidade característico da Mercedes-Benz</li>
+    </ul>   
+<section id="galeria">
+
+    <h2>Galeria do carro</h2>
+
+    <div class="galeria">
+
+        <img 
+            src="https://images.unsplash.com/photo-1599868407802-853a517be39c?fm=jpg&ixlib=rb-4.1.0&q=80&w=1200"
+            alt="Carro por fora">
+
+        <img 
+            src="https://www.intermotors.uy/wp-content/uploads/2025/09/Lifan-620-2018-5.jpeg"
+            alt="Carro com portas abertas">
+
+        <img 
+            src="https://jooinn.com/images/inside-car-5.jpg"
+            alt="Interior do carro">
+
+    </div>
+
+</section>
+
+<style>
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.galeria img {
+    width: 250px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+</style>
+    </div>
+</div>
+<div id="pagamento" class="pagamento">
+
+    <h2>Comprar Mercedes-Benz GLB</h2>
+
+    <form>
+
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite o seu nome" required>
+
+        <label for="telefone">Número de telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="Digite o seu telefone" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite o seu e-mail" required>
+
+        <label for="pagamento">Método de pagamento:</label>
+        <select id="metodo" name="metodo" required>
+            <option value="">Escolha o método</option>
+            <option value="mpesa">M-Pesa</option>
+            <option value="emola">e-Mola</option>
+            <option value="transferencia">Transferência bancária</option>
+            <option value="cartao">Cartão bancário</option>
+        </select>
+
+        <label for="endereco">Endereço:</label>
+        <textarea
+            id="endereco"
+            name="endereco"
+            placeholder="Digite o seu endereço"
+            required></textarea>
+
+        <button type="submit">
+            Comprar agora
+        </button>
+
+    </form>
+
+</div>
+
+<style>
+.pagamento {
+    width: 400px;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+}
+
+.pagamento h2 {
+    text-align: center;
+}
+
+.pagamento label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.pagamento input,
+.pagamento select,
+.pagamento textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.pagamento textarea {
+    height: 80px;
+}
+
+.pagamento button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #111;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+</style>
+</section>
+
+<section id="entrega" class="entrega">
+
+    <h2>Método de Entrega</h2>
+
+    <p>
+        Disponibilizamos um serviço de entrega para facilitar
+        o transporte do veículo até ao cliente.
+    </p>
+
+    <h3>Entrega gratuita</h3>
+
+    <p>
+        A entrega é gratuita nas regiões e países onde esta
+        condição estiver disponível.
+    </p>
+
+    <h3>Entrega internacional</h3>
+
+    <p>
+        Para clientes localizados em outros países, a entrega
+        também pode ser realizada. No entanto, dependendo do
+        país de destino, distância e condições de transporte,
+        poderá existir um custo adicional.
+    </p>
+
+    <h3>Custos adicionais</h3>
+
+    <p>
+        Caso existam custos adicionais relacionados com o
+        transporte, alfândega ou importação, o cliente será
+        informado antes da confirmação da compra.
+    </p>
+
+    <h3>Segurança na entrega</h3>
+
+    <p>
+        O veículo será preparado adequadamente para o transporte
+        e serão fornecidas ao cliente as informações necessárias
+        sobre o processo de entrega.
+    </p>
+
+</section>
+
+<style>
+
+.entrega {
+    width: 400px;
+    margin: 30px 0 30px 20px;
+    padding: 25px;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.entrega h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.entrega h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.entrega p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+</style>
+</main>
+<footer>No copyright-<strong>KENI JOHONES PEREIRA</strong></footer>
+</body>
+</html>
